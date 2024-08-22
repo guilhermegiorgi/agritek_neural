@@ -104,7 +104,7 @@ def predict_yield(temperature, humidity, fertilizer):
     return model.predict(new_data_scaled)[0][0]
 
 # Streamlit Dashboard
-st.title('Dashboard de Previsão de Produtividade Agrícola')
+st.title('Dashboard de Previsão de Produtividade Agrícola - Algodão')
 
 # Layout de uma única coluna
 with st.container():
